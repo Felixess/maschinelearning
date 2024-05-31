@@ -1,0 +1,18 @@
+Exercise 3.1
+	It is hard to see since I did use pritty similar datasets. But I think that PCA and t-SNE is 
+	really good and wellstructured pictures. But the separation of classes can vary depending on 
+	the complexity of the data and the inherent patterns present. Some classes may be 
+	well-separated and distinct, making them easier to distinguish using any of the techniques. 
+
+Exercise 3.2
+	Hierarchical clustering is effective in capturing hierarchical structures and nested clusters. 
+	It can handle various cluster shapes and sizes. Classic k-Means and Bisecting k-Means are often 
+	efficient for large datasets and when clusters have a spherical shape.
+
+	Some clusters may be well-separated and distinct, making them easier to separate using any of 
+	the clustering techniques. Other clusters may exhibit overlap or complex relationships, making 
+	their separation more challenging.
+
+	Well-separated clusters with distinct boundaries are easier to separate, while clusters with 
+	significant overlap or complex relationships require more advanced techniques or additional 
+	preprocessing steps to achieve effective separation.

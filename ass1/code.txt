@@ -1,0 +1,14 @@
+import numpy as np
+import matplotlib as plt
+import pandas as pd
+import math
+%matplotlib inline
+
+dataset = pd.read_csv('/Users/Felle/OneDrive/Dokument/Studier/VT-23/2dv516/ass1/microchips.csv')
+
+ok_data = dataset[dataset["Class"] == "OK"]
+fail_data = dataset[dataset["Class"] == "Fail"]
+
+plt.scatter(ok_data["Test1"], ok_data["Test2"], marker = "o", label = "OK")
+plt.scatter(fail_data["Test1"], fail_data["Test2"], marker = "x", label = "Fail")
+
